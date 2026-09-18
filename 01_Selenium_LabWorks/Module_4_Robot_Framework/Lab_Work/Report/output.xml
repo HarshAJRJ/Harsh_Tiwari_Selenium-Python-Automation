@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.5 (Python 3.10.11 on win32)" generated="2026-09-18T13:31:49.228361" rpa="false" schemaversion="5">
+<suite id="s1" name="Assignment 6" source="C:\Users\yasht\OneDrive\Desktop\Harsh_Tiwari_Selenium-Python-Automation\01_Selenium_LabWorks\Module_4_Robot_Framework\Lab_Work\Code\Assignment_6.robot">
+<test id="s1-t1" name="Complete Automation Practice" line="9">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-09-18T13:31:49.570384" level="INFO">Opening browser 'Chrome' to base url 'https://rahulshettyacademy.com/AutomationPractice/'.</msg>
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-09-18T13:31:49.570384" elapsed="2.194103"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-09-18T13:31:51.777593" elapsed="21.870119"/>
+</kw>
+<kw name="Wait Until Page Contains" owner="SeleniumLibrary">
+<arg>Practice Page</arg>
+<arg>10s</arg>
+<doc>Waits until ``text`` appears on the current page.</doc>
+<status status="PASS" start="2026-09-18T13:32:13.648225" elapsed="0.033526"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-09-18T13:32:13.687274" level="INFO">Typing text 'Harsh' into text field 'id=name'.</msg>
+<arg>id=name</arg>
+<arg>Harsh</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-09-18T13:32:13.685766" elapsed="0.196024"/>
+</kw>
+<kw name="Select Radio Button" owner="SeleniumLibrary">
+<msg time="2026-09-18T13:32:13.883965" level="INFO">Selecting 'radio1' from radio button 'radioButton'.</msg>
+<arg>radioButton</arg>
+<arg>radio1</arg>
+<doc>Sets the radio button group ``group_name`` to ``value``.</doc>
+<status status="PASS" start="2026-09-18T13:32:13.883965" elapsed="0.116644"/>
+</kw>
+<kw name="Select From List By Value" owner="SeleniumLibrary">
+<msg time="2026-09-18T13:32:14.002989" level="INFO">Selecting options from selection list 'id=dropdown-class-example' by value option2.</msg>
+<arg>id=dropdown-class-example</arg>
+<arg>option2</arg>
+<doc>Selects options from selection list ``locator`` by ``values``.</doc>
+<status status="PASS" start="2026-09-18T13:32:14.001868" elapsed="0.227359"/>
+</kw>
+<kw name="Select Checkbox" owner="SeleniumLibrary">
+<msg time="2026-09-18T13:32:14.232242" level="INFO">Selecting checkbox 'id=checkBoxOption1'.</msg>
+<arg>id=checkBoxOption1</arg>
+<doc>Selects the checkbox identified by ``locator``.</doc>
+<status status="PASS" start="2026-09-18T13:32:14.231231" elapsed="0.148542"/>
+</kw>
+<kw name="Element Should Be Visible" owner="SeleniumLibrary">
+<msg time="2026-09-18T13:32:14.410884" level="INFO">Element 'id=name' is displayed.</msg>
+<arg>id=name</arg>
+<doc>Verifies that the element identified by ``locator`` is visible.</doc>
+<status status="PASS" start="2026-09-18T13:32:14.380774" elapsed="0.030110"/>
+</kw>
+<kw name="Element Should Be Enabled" owner="SeleniumLibrary">
+<arg>id=name</arg>
+<doc>Verifies that element identified by ``locator`` is enabled.</doc>
+<status status="PASS" start="2026-09-18T13:32:14.411884" elapsed="0.048297"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-09-18T13:32:14.462183" level="INFO">Clicking element 'xpath=//input[@value='radio3']'.</msg>
+<arg>xpath=//input[@value='radio3']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-09-18T13:32:14.461183" elapsed="0.104826"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2026-09-18T13:32:14.734005" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="assignment_6_final.png"&gt;&lt;img src="assignment_6_final.png" width="800px"&gt;&lt;/a&gt;</msg>
+<arg>assignment_6_final.png</arg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2026-09-18T13:32:14.567173" elapsed="0.167835"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-09-18T13:32:14.736002" elapsed="2.393311"/>
+</kw>
+<status status="PASS" start="2026-09-18T13:31:49.568878" elapsed="27.560435"/>
+</test>
+<status status="PASS" start="2026-09-18T13:31:49.230360" elapsed="27.899967"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Assignment 6" id="s1" pass="1" fail="0" skip="0">Assignment 6</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
