@@ -10,3 +10,9 @@
 **Platform:** Coursera  
 **Provider:** Whizlabs
 
+
+## 3. [Test Automation with Playwright (Python) & Robot Framework](https://coursera.org/share/74777d76e374f12aaa59d87a9cd97408)
+
+**Platform:** Coursera  
+**Completed:** September 23, 2026
+
